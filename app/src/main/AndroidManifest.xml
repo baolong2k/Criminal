@@ -10,7 +10,8 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.CriminalIntent">
         <activity android:name=".MainActivity"/>
-        <activity android:name=".CrimePagerActivity"/>
+        <activity android:name=".CrimePagerActivity"
+            android:parentActivityName=".CrimeListActivity"/>
         <activity android:name=".CrimeListActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
