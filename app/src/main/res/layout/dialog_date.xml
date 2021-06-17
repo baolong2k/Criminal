@@ -8,5 +8,4 @@
     android:background="#F3F781"
     android:datePickerMode="spinner"
     android:spinnersShown="false">
-
 </DatePicker>
